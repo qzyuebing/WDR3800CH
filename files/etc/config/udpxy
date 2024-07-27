@@ -1,0 +1,9 @@
+
+config udpxy
+	option respawn '1'
+	option disabled '0'
+	option bind 'br-lan'
+	option source 'eth0.2'
+	option max_clients '60'
+	option port '4066'
+
