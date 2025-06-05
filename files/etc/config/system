@@ -10,7 +10,7 @@ config system
 	option conloglevel '8'
 	option cronloglevel '5'
 	option hostname 'WNDR3800'
-	option notes '网件路由器UDPXY'
+	option notes '网件路由器'
 
 config timeserver 'ntp'
 	list server 'ntp.tencent.com'
@@ -18,10 +18,5 @@ config timeserver 'ntp'
 	list server 'ntp.ntsc.ac.cn'
 	list server 'cn.ntp.org.cn'
 
-config led
-	option name 'IPTV'
-	option sysfs 'green:usb'
-	option trigger 'netdev'
-	option dev 'eth0.2'
-	list mode 'rx'
+
 
