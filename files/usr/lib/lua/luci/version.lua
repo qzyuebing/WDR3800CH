@@ -17,4 +17,4 @@ else
 end
 
 luciname    = "WNDR3800"
-luciversion = "中国联通IPTV"
+luciversion = "中国IPTV"
